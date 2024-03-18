@@ -28,7 +28,7 @@ This example demonstrates how to combine the Corbado React component, `@corbado/
 
 ## Points to Note
 
-- For the Corbado React package to work with Remix, you need to prevent the Server bundle rom containing any imports from `@corbado/react` when building. This is achieved with putting Corbado imports only inside files that have `.client` in front of their file extension (e.g. `AuthComponent.client.tsx`). Inside your routes SSR of these Components needs to be diabled with the help of (this method)[https://remix.run/docs/en/main/route/hydrate-fallback]
+- For the Corbado React package to work with Remix, you need to prevent the Server bundle rom containing any imports from `@corbado/react` when building. This is achieved with putting Corbado imports only inside files that have `.client` in front of their file extension (e.g. `AuthComponent.client.tsx`). Inside your routes SSR of these Components needs to be diabled with the help of [this method](https://remix.run/docs/en/main/route/hydrate-fallback).
 
 
 ## :speech_balloon: Support & Feedback
