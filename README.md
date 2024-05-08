@@ -1,6 +1,6 @@
 <img width="1070" alt="GitHub Repo Cover" src="https://github.com/corbado/corbado-php/assets/18458907/aa4f9df6-980b-4b24-bb2f-d71c0f480971">
 
-# Corbado with Remix - Example
+# Remix 2 Passkey Example App
 
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Slack](https://img.shields.io/badge/slack-join%20chat-brightgreen.svg)](https://join.slack.com/t/corbado/shared_invite/zt-1b7867yz8-V~Xr~ngmSGbt7IA~g16ZsQ)
