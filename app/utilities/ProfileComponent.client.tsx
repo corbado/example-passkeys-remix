@@ -3,10 +3,13 @@ import { useNavigate } from "@remix-run/react";
 
 export default function Profile() {
   const navigate = useNavigate();
-  const { logout, isAuthenticated, loading } = useCorbado();
-  const { user } = useCorbadoSession();
+  const { loading, isAuthenticated, user, logout } = useCorbado();
 
-  if (!isAuthenticated && !loading) {
+  if (loading) {
+    return <p>Loading...</p>;
+  }
+
+  if (!isAuthenticated) {
     navigate("/");
   }
 

@@ -6,7 +6,11 @@ export default function AuthComponent() {
   const { isAuthenticated, loading } = useCorbado();
   const navigate = useNavigate();
 
-  if (isAuthenticated && !loading) {
+  if (loading) {
+    return <p>Loading...</p>;
+  }
+
+  if (isAuthenticated) {
     navigate("/profile");
   }
 
